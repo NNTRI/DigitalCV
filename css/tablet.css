@@ -1,0 +1,63 @@
+@media screen and (max-width: 768px) {
+  body {
+    width: 98%;
+    margin: 0 auto;
+  }
+
+  .banner {
+    width: 100%;
+    height: 80vh;
+    padding: 50px;
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0.6),
+        rgba(34, 34, 34, 0.6)
+      ),
+      url(../images/banner.jpg);
+    background-size: 100% 80vh;
+  }
+
+  .menu {
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .avatar-img {
+    display: none;
+  }
+
+  .menu-empty {
+    border-left: 1px solid #adb5bd;
+    border-right: 1px solid #adb5bd;
+    padding: 1.7rem 1.5rem;
+  }
+
+  .grid-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem 1rem;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .certificate-img {
+    width: 100%;
+  }
+
+  .footer-icon {
+    font-size: 1.5rem;
+    color: #339af0;
+  }
+
+  .footer-text {
+    font-size: 1.5rem;
+  }
+}

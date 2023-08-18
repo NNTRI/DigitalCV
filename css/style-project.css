@@ -1,0 +1,116 @@
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+th {
+  width: 20%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+td {
+  width: 80%;
+  text-align: justify;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: #343a40;
+}
+
+.flex-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.border-dot {
+  border-bottom: 1px dotted grey;
+}
+
+.project-1 {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 0.5rem 0.5rem;
+  background-color: #1971c2;
+}
+
+.goal {
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 0.5rem;
+  background-color: white;
+}
+
+.goal-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.team {
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 0.5rem;
+  background-color: white;
+}
+
+.team-icon {
+  font-size: 2rem;
+}
+
+.timeline {
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 0.5rem;
+  background-color: white;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.timeline-icon {
+  width: 2rem;
+  height: 2rem;
+  color: violet;
+}
+
+.scope {
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 0.5rem;
+  background-color: white;
+}
+
+.primary {
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 0.5rem;
+  background-color: white;
+}
+
+.primary-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .project-1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: #1971c2;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .project-1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: #1971c2;
+  }
+}
